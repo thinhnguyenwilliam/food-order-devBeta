@@ -13,7 +13,6 @@ import {
 } from "../mailtrap/email";
 
 export const signup = async (req: Request, res: Response): Promise<void> => {
-    console.log(req.body);
     try {
         const { fullname, email, password, contact } = req.body;
 
